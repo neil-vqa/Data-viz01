@@ -105,10 +105,26 @@ app.layout = html.Div(children=[
                 marks={str(Year): str(Year) for Year in df['Year'].unique()},
                 step=None
         )
-        ],style={'marginTop': 10, 'width':'80%','backgroundColor': colors['background'],
+        ],style={'marginTop': 10, 'width':'80%',
                 'marginRight':'Auto', 'marginLeft':'Auto'}
         )
-    ],style={'backgroundColor': colors['background']})
+    ]),
+    
+    html.Div([
+    	html.P(
+            children=['Built using Dash (neilvqa)'],
+            style={
+                'fontSize':12,
+                'textAlign':'center',
+                'fontStyle':'italic',
+                'color':'#ffffff'
+            }
+        )
+    ],
+    style={
+    	'marginTop':15,
+    	'backgroundColor': '#00A568'
+    })
     
 ],style={'backgroundColor': colors['background']})
 
