@@ -21,7 +21,7 @@ colors = {
 df = pd.read_excel('commodity_data.xlsx')
 dfx = df.iloc[0:17]
 
-app.layout = html.Div(style={'backgroundColor': colors['background']}, children=[
+app.layout = html.Div(children=[
     html.Div([
         html.Div([
             html.P(
@@ -109,7 +109,7 @@ app.layout = html.Div(style={'backgroundColor': colors['background']}, children=
                 'marginRight':'Auto', 'marginLeft':'Auto'}
         )
     ])
-])
+],style={'backgroundColor': colors['background']})
 
 @app.callback(
     Output('price-chart','figure'),
