@@ -105,7 +105,7 @@ app.layout = html.Div(style={'backgroundColor': colors['background']}, children=
                 marks={str(Year): str(Year) for Year in df['Year'].unique()},
                 step=None
         )
-        ],style={'marginTop': 10, 'width':'80%',
+        ],style={'marginTop': 10, 'width':'80%','backgroundColor': colors['background'],
                 'marginRight':'Auto', 'marginLeft':'Auto'}
         )
     ])
