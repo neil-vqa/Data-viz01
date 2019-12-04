@@ -108,7 +108,8 @@ app.layout = html.Div(children=[
         ],style={'marginTop': 10, 'width':'80%','backgroundColor': colors['background'],
                 'marginRight':'Auto', 'marginLeft':'Auto'}
         )
-    ])
+    ],style={'backgroundColor': colors['background']})
+    
 ],style={'backgroundColor': colors['background']})
 
 @app.callback(
