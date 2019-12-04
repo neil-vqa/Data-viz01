@@ -125,7 +125,7 @@ def update_chart(commodity_column, year_row):
 
     colored = np.array(['#00A568']*df_cur_price.shape[0])
     colored[df_cur_price == dfv_min] = '#C2C3C5'
-    colored[df_cur_price == dfv_max] = '#5F6368'
+    colored[df_cur_price == dfv_max] = '#B43757'
     
 
     fit = do.Figure()
@@ -144,7 +144,6 @@ def update_chart(commodity_column, year_row):
             'automargin': True
         },
         yaxis= {
-            'title': 'Price (in PH Peso)',
             'automargin': True,
             'showgrid': True
         },
@@ -203,7 +202,7 @@ def update_chart(commodity_column, year_row):
         'yref':'paper',
         'x':.5,
         'y':1.24,
-        'font':{'size':24}
+        'font':{'size':20}
     }
 
     fit.add_trace(data)
