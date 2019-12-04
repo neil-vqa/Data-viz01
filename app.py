@@ -112,7 +112,7 @@ app.layout = html.Div(children=[
     
     html.Div([
     	html.P(
-            children=['Built using Dash (neilvqa)'],
+            children=['Built using Dash (https://github.com/neil-vqa)'],
             style={
                 'fontSize':12,
                 'textAlign':'center',
@@ -122,7 +122,7 @@ app.layout = html.Div(children=[
         )
     ],
     style={
-    	'marginTop':25,
+    	'marginTop':28,
     	'backgroundColor': '#00A568'
     })
     
