@@ -140,7 +140,6 @@ def update_chart(commodity_column, year_row):
 
     layout = do.Layout(
         xaxis= {
-            'title': 'Region',
             'automargin': True
         },
         yaxis= {
@@ -192,7 +191,7 @@ def update_chart(commodity_column, year_row):
         'yref':'paper',
         'x':.5,
         'y':1.37,
-        'font':{'size':20}
+        'font':{'size':19}
     }
 
     annotate2 = {
@@ -202,7 +201,7 @@ def update_chart(commodity_column, year_row):
         'yref':'paper',
         'x':.5,
         'y':1.24,
-        'font':{'size':20}
+        'font':{'size':19}
     }
 
     fit.add_trace(data)
