@@ -122,7 +122,7 @@ app.layout = html.Div(children=[
         )
     ],
     style={
-    	'marginTop':40,
+    	'marginTop':45,
     	'backgroundColor': '#00A568'
     })
     
@@ -152,7 +152,7 @@ def update_chart(commodity_column, year_row):
         y= df_cur_price,
         marker_color= colored,
         hoverinfo='y',
-        width=.7
+        width=.5
     )
 
     layout = do.Layout(
