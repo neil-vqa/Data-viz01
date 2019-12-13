@@ -160,9 +160,9 @@ def update_chart(commodity_column, year_row):
             'automargin': True
         },
         yaxis= {
+            'title': 'Price (in PH Peso)',
             'automargin': True,
-            'showgrid': True,
-            'title':'Price (Php)'
+            'showgrid': True
         },
         transition={'duration':750},
         paper_bgcolor='#F8F9FA',
