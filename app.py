@@ -161,7 +161,8 @@ def update_chart(commodity_column, year_row):
         },
         yaxis= {
             'automargin': True,
-            'showgrid': True
+            'showgrid': True,
+            'title':'Price (Php)'
         },
         transition={'duration':750},
         paper_bgcolor='#F8F9FA',
