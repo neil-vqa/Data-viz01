@@ -6,12 +6,9 @@ import plotly.graph_objs as do
 import pandas as pd
 import numpy as np
 
-##external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
-
-
 app = dash.Dash(__name__)
-
 server = app.server
+app.title = 'Commodity Prices'
 
 colors = {
     'background': '#F8F9FA',
