@@ -82,7 +82,7 @@ app.layout = html.Div(children=[
         ],
         value='RMR'
         )
-    ],style={'width': '23%', 'display': 'block', 'marginLeft': 60,
+    ],style={'width': '30%', 'display': 'block', 'marginLeft': 30,
              'fontSize':15}
     ),
 
