@@ -24,10 +24,10 @@ app.layout = html.Div(children=[
             html.P(
                 children='Philippine Retail Price of Agricultural Commodities',
                 style={
-                'textAlign':'right',
+                'textAlign':'left',
                 'color':'#ffffff',
                 'fontSize':35,
-                'marginRight': 30
+                'marginLeft': 30
             })
         ],
         style={
@@ -37,11 +37,11 @@ app.layout = html.Div(children=[
         html.P(
         children='20 Years Worth of Data (Data Source: PSA OpenSTAT)',
         style={
-            'textAlign':'right',
+            'textAlign':'left',
             'color':'#000000',
             'fontSize':12,
             'fontStyle':'italic',
-            'marginRight': 30
+            'marginLeft': 30
         }
     )
     ]),
@@ -109,7 +109,7 @@ app.layout = html.Div(children=[
     
     html.Div([
     	html.P(
-            children=['Built using Dash (https://github.com/neil-vqa)'],
+            children=['Built using Dash | Viz by: nvqa'],
             style={
                 'fontSize':12,
                 'textAlign':'center',
